@@ -1,0 +1,31 @@
+(prototipo1)
+**Autor:** Víctor Manuel Ortiz Pérez
+
+## 1) Qué está hecho
+- **Arquitectura:** Menú + 3 módulos (Calculadora, Graficadora, Derivando con Borre).
+- **Graficadora:** traza `y=f(x)`, slider `x₀`, muestra **tangente** y cuadrícula.
+- **Juego “Derivando con Borre”:**
+  - Modo **Signo** (sube/baja/plano) y **Valor** (aprox `f’(x₀)`).
+  - Progresión simple: rachas, vidas, “huesitos” y mini-jefe.
+- **Borre (personaje):** panel lateral **grande**, animación suave y feedback textual.
+- **UX básica:** pantalla completa por defecto (F11 alterna, Esc sale), botones grandes.
+
+## 2) Enfoque y especialización
+- Foco **exclusivo** en **interpretar y estimar derivadas** (pendiente en un punto) para 8–12 años.
+- Graficadora + juego trabajan con el modelo **CPA** (Concreto-Pictórico-Abstracto).
+- Fuera de alcance: integrales, límites, CAS general y temas no relacionados.
+
+## 3) UX/Accesibilidad (implementado / en progreso)
+- ✅ Contraste alto, labels claros y feedback textual (no solo color).
+- ✅ Navegación simple y botones grandes.
+-  **Fuentes escalables** (S/M/L/XL) y **tema monocromo**.
+-  **Atajos 1–4** en el juego, **TTS opcional** y **paso a paso** (Δy/Δx).
+
+## 4) Riesgos / pendientes inmediatos
+- Ajuste de **dificultad** por nivel y banco de funciones.
+- Guardado de **preferencias** y **reporte de sesión** (JSON).
+- **Prueba rápida** con 3–5 niñ@s para validar textos/tamaños.
+
+## 5) Próximos pasos (1–2 semanas)
+- **Sprint 1 (MVP docente):** fuentes escalables, atajos 1–4, “Paso a paso”.
+- **Sprint 2:** TTS, guardado de preferencias, reporte JSON y glosario ℹ️.

@@ -1,0 +1,27 @@
+# UX + Accesibilidad
+**Autor:** Víctor Manuel Ortiz Pérez
+
+## Principios aplicados
+- **Perceptible**
+  - Paleta con **alto contraste** y opción **monocromo** (no depender solo de color).
+  - **Fuentes escalables** (S/M/L/XL) para legibilidad.
+  - **Patrones/estilos** distintos para función vs. tangente.
+  - **Feedback textual** grande (badges) además de color/emojis.
+- **Operable**
+  - Botones grandes, foco visible, flujo por **teclado** (Tab/Shift+Tab).
+  - **Atajos:** 1–4 para respuestas, **Enter** confirma, **F11/Esc** navegación principal.
+- **Comprensible**
+  - Mensajes breves y lenguaje concreto (sube/baja/plano).
+  - **Glosario ℹ️** de términos (pendiente, tangente, derivada).
+  - **Modo “Paso a paso”** (Δy, Δx, `f’(x₀)≈Δy/Δx`).
+- **Robusto**
+  - Preferencias en **JSON** (tema, fuente, TTS).
+  - Evaluación segura de expresiones (AST) y manejo de errores con feedback.
+  - TTS opcional con `pyttsx3` si está disponible.
+
+## Implementación técnica (plan)
+- Toggle **tema**: normal / alto contraste / monocromo (afecta colores y estilos de línea).
+- Selector de **tamaño de fuente** global que recalcula tipografías.
+- **Atajos 1–4/Enter** en el juego y foco visible en botones.
+- Panel **Paso a paso** con `h` fijo: muestra `f(x₀±h)`, `Δy`, `Δx`, `f’(x₀)`.
+- Botón **🔊 Leer** (TTS) para instrucciones y feedback (si la librería está instalada).

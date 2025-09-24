@@ -1,0 +1,21 @@
+
+**Autor:** Víctor Manuel Ortiz Pérez
+
+## Problema
+La derivada suele presentarse con notación formal antes de que el estudiantado comprenda su **significado intuitivo** (pendiente/velocidad). En 8–12 años, se requiere un puente **concreto → visual → numérico**.
+
+## Enfoque
+- **Especialización:** solo **interpretar y estimar** derivadas; no “hacer de todo”.
+- **Personaje guía (Borre):** baja la ansiedad, da feedback amable y refuerza logros.
+- **CPA (Concreto-Pictórico-Abstracto):**
+  - **Concreto:** Borre “sube/baja” por una rampa (metáfora de pendiente).
+  - **Pictórico:** gráfica con **tangente** en `x₀`.
+  - **Abstracto:** número **`f’(x₀)`** (estimación por diferencia central).
+
+## Razones del diseño
+- **Economía cognitiva:** dos **modos de juego** + **graficadora** con lo justo.
+- **Gamificación breve:** rachas, huesitos y mini-jefe para foco y motivación.
+- **Inclusión:** feedback textual, escalas de fuente, monocromo, atajos, TTS opcional.
+
+## Resultado esperado
+Mejorar la **intuición de pendiente** y la **estimación de `f’(x₀)`**, fomentar pensamiento lógico-matemático y la autoconfianza en un entorno **amable y accesible**.
